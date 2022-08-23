@@ -421,7 +421,8 @@ p {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 15px;
   position: relative;
-  padding: 0px;
+  padding: 10px;
+  border-radius: 40px;
 
   li {
     background-color: $background-light;
@@ -439,6 +440,7 @@ p {
   position: relative;
   height: 100%;
   padding: 2rem 1.75rem;
+  border-radius: 40px;
 
   h2 {
     font-size: $fz-medium;

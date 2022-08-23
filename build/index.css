@@ -181,7 +181,7 @@ html {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 0px;
   }
   
@@ -325,12 +325,15 @@ html {
   
   .project-image-wrapper {
     max-width: 500px;
+    margin: auto;
+    display: block;
   }
   
   .project-image {
     max-width: 100%;
     display: block;
     position: relative;
+    border-radius: 25px;
   }
   
   .project-left-align,
@@ -363,6 +366,7 @@ html {
     border-radius: 3px;
     text-align: left;
     margin-bottom: 25px;
+    border-radius: 40px;
   }
   
   .project-tech-list {
@@ -386,6 +390,7 @@ html {
   .project-links_img {
     transition: transform 0.5s;
     max-height: 30px;
+    
   }
   
   .project-links_img:hover {
@@ -402,10 +407,12 @@ html {
   }
   
   .other-project-list li {
-    background-color: #212121;
+    background-color: #e1dbdb;
+    border-radius: 40px;
   }
   
   .project-inner {
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -572,7 +579,9 @@ html {
   
     .project-image {
       margin: 50px auto;
-      width: 80%;
+      padding: 50px auto;
+      width: 100%;
+      
     }
   
     .project-content {
