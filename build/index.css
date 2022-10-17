@@ -292,7 +292,7 @@ html {
   }
   
   .about-me-details .profile-image {
-    float: left;
+    float: right;
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
@@ -329,12 +329,17 @@ html {
     display: block;
   }
   
-  .project-image {
+  .project-image { 
     max-width: 100%;
     display: block;
     position: relative;
     border-radius: 25px;
   }
+  .project-image-right {
+    float: right;    
+ margin: 0 0 0 15px;
+}
+  
   
   .project-left-align,
   .project-right-align {
@@ -565,7 +570,7 @@ html {
     }
   
     .profile-image {
-        float: left;
+        float: right;
         width: 250px;
         margin-right: 40px;
         border-radius: 50%;
