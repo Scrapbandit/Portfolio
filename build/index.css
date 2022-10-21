@@ -328,12 +328,17 @@ html {
     margin: auto;
     display: block;
   }
+  .aboutme-image { 
+    max-width: 100%;
+    display: block;
+    position: relative;
+    border-radius: 25px;
+  }
   
   .project-image { 
     max-width: 100%;
     display: block;
     position: relative;
-    border-radius: 25px;
   }
   .project-image-right {
     float: right;    
